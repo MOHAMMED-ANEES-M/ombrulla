@@ -1,3 +1,10 @@
 .hero-img {
     border-radius: 42% 55% 59% 36% / 52% 52% 38% 48%;
 }
+.leader {
+    background-image: url('../assets/position-statement.svg');
+}
+.petran {
+    background-image: url('../assets/Mask-group-bg.jpg');
+    background-repeat: no-repeat;
+}

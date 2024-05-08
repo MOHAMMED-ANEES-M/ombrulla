@@ -9,7 +9,7 @@ const Drawer = () => {
 
   return (
     <div >
-        <div class="  bg-white border-black z-50  ">
+        <div class="  bg-white border-black z-100  ">
 
             <div className='bg-[#F3F4F6] p-5'>
                 <img src={logo} alt="Ombrulla" className='m-auto object-contain h-20 w-32'/>
