@@ -5,7 +5,6 @@ import { IoIosArrowDown } from "react-icons/io";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import Drawer from './Drawer';
-import Home from '../pages/Home';
 
 
 const Navbar = () => {
@@ -82,7 +81,7 @@ const Navbar = () => {
         </div>
       )}
     </nav>
-    <Home />
+    
     </>
   );
 };

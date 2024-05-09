@@ -3,6 +3,7 @@
 }
 .leader {
     background-image: url('../assets/position-statement.svg');
+    background-repeat: no-repeat;
 }
 .petran {
     background-image: url('../assets/Mask-group-bg.jpg');
