@@ -9,3 +9,6 @@
     background-image: url('../assets/Mask-group-bg.jpg');
     background-repeat: no-repeat;
 }
+p {
+    z-index: 0 !important;
+}

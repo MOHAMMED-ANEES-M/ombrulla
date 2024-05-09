@@ -17,14 +17,14 @@ const Carousal = () => {
         <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
             {images.map((img, index) => (
                 <li key={index} className="inline-block">
-                <img src={img} alt={`Brand ${index + 1}`} className="h-40 w-40" />
+                <img src={img} alt={`Brand ${index + 1}`} className="h-10 w-10 sm:h-40 sm:w-40" />
                 </li>
             ))}
         </ul>
         <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
             {images.map((img, index) => (
                 <li key={index} className="inline-block">
-                <img src={img} alt={`Brand ${index + 1}`} className="h-40 w-40" />
+                <img src={img} alt={`Brand ${index + 1}`} className="h-10 w-10 sm:h-40 sm:w-40" />
                 </li>
             ))}
         </ul>

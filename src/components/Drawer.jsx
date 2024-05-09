@@ -8,15 +8,15 @@ const Drawer = () => {
     const [isProductsOpen,setIsProductsOpen] = useState(false)
 
   return (
-    <div >
-        <div class="  bg-white border-black z-100  ">
+    <div>
+        <div class=" bg-white border-black ">
 
             <div className='bg-[#F3F4F6] p-5'>
-                <img src={logo} alt="Ombrulla" className='m-auto object-contain h-20 w-32'/>
+                <img src={logo} alt="Ombrulla" className='m-auto object-contain h-24 w-40'/>
             </div>
 
             <div>
-                <ul className='px-4 text-xs'>
+                <ul className='px-4 '>
                     <li className='p-4 border-b'>Home</li>
                     <li className='p-3 border-b flex gap-1 justify-between place-items-center' onClick={()=>{setIsServicesOpen(!isServicesOpen)}}>
                         <span>Services</span>

@@ -11,3 +11,7 @@
     background-repeat: no-repeat;
 
   }
+  .active {
+    color: rgb(62, 62, 248);
+  }
+  

@@ -10,7 +10,7 @@ const Heading1 = (props) => {
         <p className={`font-bold text-sm ${props.titleColor}`}>{props.title}</p>
         { props.double  && <GoSquareFill className='text-blue-600'/> }
       </div>
-        <h1 className={`font-medium text-[2.5rem] leading-tight ${props.headingColor}`}>{props.heading}</h1>
+        <h1 className={`font-medium text-[2rem] sm:text-[2.5rem] leading-tight ${props.headingColor}`}>{props.heading}</h1>
     </div>
   )
 }

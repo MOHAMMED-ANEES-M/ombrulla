@@ -35,11 +35,11 @@ const Home = () => {
       <section>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-20 mx-5 sm:mx-20 flex-wrap justify-between'>
             <div className=' mt-20'>
-                <h1 className='font-bold text-[3.5rem] leading-tight'>Manual <br /> Inspection is 
-                    <span className='text-blue-600 font-semibold leading-tight lg:block'> Slow & Error-Prone</span>
+                <h1 className='font-bold text-[3rem] sm:text-[3.5rem] leading-tight'>Manual <br /> Inspection is 
+                    <span className='text-blue-600 font-normal leading-tight lg:block'> Slow & Error-Prone</span>
                 </h1>
                 <p className='mt-5 opacity-70 text-lg'>AI-powered visual inspection, leveraging computer vision, transforms manufacturing inspection procedures, boosting precision and cost-effectiveness while upholding product excellence. This AI inspection system detects defects with exceptional accuracy, optimizing the overall inspection process.</p>
-                <div className='mt-5 flex gap-10 place-items-center'>
+                <div className='mt-5 flex gap-5 sm:gap-10 place-items-center'>
                     <Button bg='bg-blue-600' border='border-black'/>
                     <VideoButton title='Watch Video' colorHover='text-blue-600' bgHover='bg-white' border='border-black'/>
                 </div>
@@ -51,7 +51,7 @@ const Home = () => {
       </section>
 
       {/* Leader in AI visual inspection part */}
-      <section className='leader sm:mx-16 mt-32 rounded-3xl p-3 sm:p-10'>
+      <section className='leader mx-3 sm:mx-16 mt-32 rounded-3xl p-3 sm:p-10'>
         <div className='mx-5 md:mx-44 '>
           <Heading1 title='Leader in AI visual inspection'/>
           <h1 className='mb-10 font-semibold text-[3rem] sm:text-[3.5rem] leading-tight'>Crafting Tomorrow's <br /> World with
@@ -62,8 +62,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Ai part */}
-      <section className='mt-32 mx-10 sm:mx-20'>
+      {/* AI part */}
+      <section className='mt-32 mx-5 sm:mx-20'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
           <div>
             <Heading1 title='AI VISUAL INSPECTION' heading='Enhancing quality through AI-based visual inspection'/>
@@ -124,7 +124,7 @@ const Home = () => {
       </section>
 
       {/* products part */}
-      <section className='mt-32 mx-20'>
+      <section className='mt-32 mx-10 sm:mx-20'>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
           <div>
             <Heading1 title='PRODUCTS' heading='Tracking Tools' />
@@ -136,7 +136,7 @@ const Home = () => {
       </section>
 
       {/* customers part */}
-      <section className='mt-40 mx-20'>
+      <section className='mt-40 mx-5 sm:mx-20'>
         <div>
           <Heading1 title='OUR CUSTOMERS' heading='They Trust Us' double='true'/>
           <Carousal />
@@ -144,8 +144,8 @@ const Home = () => {
       </section>
 
       {/* testimonials part */}
-      <section className='mt-32 bg-[#172554]'>
-        <div className='p-20'>
+      <section className='mt-20 sm:mt-32 bg-[#172554]'>
+        <div className='p-5 sm:p-20'>
           <Heading1 title='OUR TESTIMONIALS' heading='What Customers Say About Us' headingColor='text-white' titleColor='text-white'/>
           <div className='mt-10'>
             <CustomersCarousel />
@@ -154,16 +154,16 @@ const Home = () => {
       </section>
 
       {/* brands part */}
-      <section className='mt-32 mx-20'>
+      <section className='mt-32 mx-5 sm:mx-20'>
         <div>
           <Heading1 title='BRANDS WE WORK WITH' heading='Trusted by Thousands of Businesses' double='true'/>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border rounded-3xl mt-20 bg-gray-50 mb-20'>
-            <div className='p-10 px-20 m-auto hover:bg-white hover:shadow hover:rounded-tl-3xl'><img src={unv} alt="unv" className='h-32 w-32'/></div>
-            <div className='p-10 px-20 m-auto hover:bg-white hover:shadow'><img src={alhua} alt="unv" className='h-32 w-32'/></div>
-            <div className='p-10 px-20 m-auto hover:bg-white hover:shadow hover:rounded-tr-3xl'><img src={nvidia} alt="unv" className='h-32 w-32'/></div>
-            <div className='p-10 px-20 m-auto hover:bg-white hover:shadow hover:rounded-bl-3xl'><img src={amazon} alt="unv" className='h-32 w-32'/></div>
-            <div className='p-10 px-20 m-auto hover:bg-white hover:shadow'><img src={hikvision} alt="unv" className='h-32 w-32'/></div>
-            <div className='p-10 px-20 m-auto hover:bg-white hover:shadow hover:rounded-br-3xl'><img src={azure} alt="unv" className='h-32 w-32'/></div>
+          <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 border rounded-3xl mt-20 bg-gray-50 mb-20'>
+            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-tl-3xl'><img src={unv} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
+            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow'><img src={alhua} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
+            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-tr-3xl'><img src={nvidia} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
+            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-bl-3xl'><img src={amazon} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
+            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow'><img src={hikvision} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
+            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-br-3xl'><img src={azure} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
           </div>
         </div>
       </section>
@@ -172,7 +172,7 @@ const Home = () => {
       <section className='mt-32'>
         <Heading1 title='AI INSIGHTS' heading='To Read' double='true' />
         <hr className='mt-10 mb-10 w-[95%] m-auto border'/>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 mx-20'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 mx-10 sm:mx-20'>
         <InsightCard img={insightcard1} heading='Transforming Maritime Inspections with AI Visual Inspection' 
           text='Explore how pioneering AI-driven inspections in the maritime industry are revolutionizing asset monitoring with improved ...' 
           name='Zara Elizabeth' time='April 29, 2024 · 6 min read'  mt='mt-5'
