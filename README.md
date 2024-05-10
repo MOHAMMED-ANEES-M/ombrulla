@@ -11,15 +11,15 @@ https://ombrulla-two.vercel.app/
 
 To get started with this project, follow these steps:
 
-1.**Clone the repository:**
+1. **Clone the repository:**
 ```bash
   git clone https://github.com/MOHAMMED-ANEES-M/ombrulla.git
 ```
-2.**Navigate into the project directory:**
+2. **Navigate into the project directory:**
 ```bash
   cd ombrulla
 ```
-3.**Install dependencies:** This project uses npm. Run the following command to install all required dependencies.
+3. **Install dependencies:** This project uses npm. Run the following command to install all required dependencies.
 ```bash
   npm install
 ```
@@ -34,12 +34,12 @@ This command starts the development server. Open http://localhost:3000 in your b
 ## Deployment
 To deploy this project, you can use the following steps:
 
-1.**Build the project:**
+1. **Build the project:**
 ```bash
   npm run build
 ``` 
 
-2.**Deployment:** Once the build is complete, you can deploy the project to your preferred hosting platform.
+2. **Deployment:** Once the build is complete, you can deploy the project to your preferred hosting platform.
 ## Features
 
 - **Responsive UI:** Responsive design for optimal viewing on all devices.
