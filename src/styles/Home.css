@@ -8,6 +8,7 @@
 .petran {
     background-image: url('../assets/Mask-group-bg.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 p {
     z-index: 0 !important;

@@ -45,7 +45,7 @@ const Home = () => {
                 </div>
             </div>
             <div className=' '>
-              <img src={hero} alt="inspector-image"  className=' hero-img h-full min-h-[3rem] w-[90%]'/>
+              <img src={hero} alt="inspector-image"  className=' hero-img h-full min-h-[300px] w-[90%]'/>
             </div>
         </div>
       </section>
@@ -106,12 +106,12 @@ const Home = () => {
 
       {/* petran part */}
       <section className='mt-32 mb-10'>
-        <div className='petran p-5 sm:p-24 grid grid-cols-1 md:grid-cols-2 '>
+        <div className='petran p-7 sm:p-24 grid grid-cols-1 md:grid-cols-2 space-y-10'>
           <div>
-            <img src={petrantext} alt="petran" className='h-6 ' />
-            <p className='text-white'><span className='font-bold'>PE</span>rformance - <span className='font-bold'>TR</span>acking - <span className='font-bold'>AN</span>alytics</p>
-            <h1 className='mt-5 font-medium text-[2.5rem] text-white leading-tight'>AIoT Enabled Asset <br /> Performance Management Software</h1>
-            <p className='mt-10 text-white leading-tight'>PETRAN offers an Asset Management software (APM) that harnesses the power of artificial intelligence and the Internet of Things (IoT) to empower data-driven decision-making and enable predictive maintenance and operational equipment effectiveness</p>
+            <img src={petrantext} alt="petran" className='h-4 sm:h-6 ' />
+            <p className='text-white text-xs sm:text-base'><span className='font-bold'>PE</span>rformance - <span className='font-bold'>TR</span>acking - <span className='font-bold'>AN</span>alytics</p>
+            <h1 className='mt-5 font-medium text-[1.8rem] sm:text-[2.5rem] text-white leading-tight'>AIoT Enabled Asset <br /> Performance Management Software</h1>
+            <p className='mt-10 text-white text-sm sm:text-base leading-tight'>PETRAN offers an Asset Management software (APM) that harnesses the power of artificial intelligence and the Internet of Things (IoT) to empower data-driven decision-making and enable predictive maintenance and operational equipment effectiveness</p>
             <div className='mt-10 flex gap-5 sm:gap-10 place-items-center'>
               <Button />
               <VideoButton title='Watch Video' color='text-white'/>
@@ -125,12 +125,12 @@ const Home = () => {
 
       {/* products part */}
       <section className='mt-32 mx-10 sm:mx-20'>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-5 space-y-5'>
           <div>
             <Heading1 title='PRODUCTS' heading='Tracking Tools' />
             <p className='mt-10 opacity-70 leading-6'>AI and IoT-enabled tracking tools enhance workplace safety by providing real-time monitoring of workers' movements and vital signs. Simultaneously, they contribute to environmental sustainability by optimizing energy usage, improving waste management, and promoting resource efficiency.</p>
           </div>
-            <ProductCard heading='RTLS - Workplace Safety' img={cardimage1} mt='mt-14' text='IoT and AI integration improves workplace safety by continuously monitoring vital signs and locations in real-time for proactive hazard detection.'/>
+            <ProductCard heading='RTLS - Workplace Safety' img={cardimage1} mt='mt-6 sm:mt-14' text='IoT and AI integration improves workplace safety by continuously monitoring vital signs and locations in real-time for proactive hazard detection.'/>
             <ProductCard heading='Environmental Sustainability' img={cardimage2} mt='mt-6' text='AI and IoT enhance environmental sustainability by optimizing energy use, improving waste management, and promoting resource efficiency.'/>
         </div>
       </section>
@@ -157,13 +157,13 @@ const Home = () => {
       <section className='mt-32 mx-5 sm:mx-20'>
         <div>
           <Heading1 title='BRANDS WE WORK WITH' heading='Trusted by Thousands of Businesses' double='true'/>
-          <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 border rounded-3xl mt-20 bg-gray-50 mb-20'>
-            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-tl-3xl'><img src={unv} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
-            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow'><img src={alhua} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
-            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-tr-3xl'><img src={nvidia} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
-            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-bl-3xl'><img src={amazon} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
-            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow'><img src={hikvision} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
-            <div className='sm:p-10 sm:px-20 p-3 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-br-3xl'><img src={azure} alt="unv" className='h-20 w-20 sm:h-32 sm:w-32 m-auto'/></div>
+          <div className='grid grid-cols-3 lg:grid-cols-3 border rounded-3xl mt-20 bg-gray-50 mb-20'>
+            <div className='sm:p-10 md:px-20 p-5 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-tl-3xl'><img src={unv} alt="unv" className='h-12 w-12 sm:h-32 sm:w-32 m-auto'/></div>
+            <div className='md:p-10 md:px-20 p-5 px-5 w-full m-auto hover:bg-white hover:shadow'><img src={alhua} alt="unv" className='h-12 w-12 sm:h-32 sm:w-32 m-auto'/></div>
+            <div className='md:p-10 md:px-20 p-5 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-tr-3xl'><img src={nvidia} alt="unv" className='h-12 w-12 sm:h-32 sm:w-32 m-auto'/></div>
+            <div className='md:p-10 md:px-20 p-5 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-bl-3xl'><img src={amazon} alt="unv" className='h-12 w-12 sm:h-32 sm:w-32 m-auto'/></div>
+            <div className='md:p-10 md:px-20 p-5 px-5 w-full m-auto hover:bg-white hover:shadow'><img src={hikvision} alt="unv" className='h-12 w-12 sm:h-32 sm:w-32 m-auto'/></div>
+            <div className='md:p-10 md:px-20 p-5 px-5 w-full m-auto hover:bg-white hover:shadow hover:rounded-br-3xl'><img src={azure} alt="unv" className='h-12 w-12 sm:h-32 sm:w-32 m-auto'/></div>
           </div>
         </div>
       </section>
@@ -171,7 +171,7 @@ const Home = () => {
       {/* insights part */}
       <section className='mt-32'>
         <Heading1 title='AI INSIGHTS' heading='To Read' double='true' />
-        <hr className='mt-10 mb-10 w-[95%] m-auto border'/>
+        <hr className='mt-10 mb-10 w-[85%] sm:w-[95%] m-auto border'/>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 mx-10 sm:mx-20'>
         <InsightCard img={insightcard1} heading='Transforming Maritime Inspections with AI Visual Inspection' 
           text='Explore how pioneering AI-driven inspections in the maritime industry are revolutionizing asset monitoring with improved ...' 

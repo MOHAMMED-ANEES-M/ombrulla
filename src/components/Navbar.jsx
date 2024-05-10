@@ -76,7 +76,7 @@ const Navbar = () => {
       </div>
 
       {isMenuOpen && (
-        <div className={`sm:hidden fixed z-50 inset-0 shadow bg-white w-[75%]   ${isMenuOpen ? 'block' : 'hidden'}`}>
+        <div className={`sm:hidden fixed z-50 inset-0 shadow bg-white w-[75%] drawer  ${isMenuOpen ? 'block' : 'hidden'}`}>
             <Drawer />
         </div>
       )}

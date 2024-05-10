@@ -12,7 +12,7 @@ const Drawer = () => {
         <div class=" bg-white border-black ">
 
             <div className='bg-[#F3F4F6] p-5'>
-                <img src={logo} alt="Ombrulla" className='m-auto object-contain h-24 w-40'/>
+                <img src={logo} alt="Ombrulla" className='m-auto object-contain h-20 w-40'/>
             </div>
 
             <div>
@@ -20,7 +20,7 @@ const Drawer = () => {
                     <li className='p-4 border-b'>Home</li>
                     <li className='p-3 border-b flex gap-1 justify-between place-items-center' onClick={()=>{setIsServicesOpen(!isServicesOpen)}}>
                         <span>Services</span>
-                        <AiFillPlusCircle className='text-blue-500 h-5 w-5'/>
+                        <AiFillPlusCircle className='text-blue-500 h-7 w-7'/>
                     </li>
                         { isServicesOpen && 
                             <ul className='ps-3'>
@@ -32,7 +32,7 @@ const Drawer = () => {
                         }
                     <li className='p-3 border-b flex gap-1 justify-between place-items-center' onClick={()=>{setIsProductsOpen(!isProductsOpen)}}>
                         <span>Product</span>
-                        <AiFillPlusCircle className='text-blue-500 h-5 w-5'/>
+                        <AiFillPlusCircle className='text-blue-500 h-7 w-7'/>
                     </li>
                         { isProductsOpen && 
                             <ul className='ps-3'>
